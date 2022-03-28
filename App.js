@@ -25,6 +25,8 @@ const switchNavigator = createSwitchNavigator({
     TrackCreate: TrackCreateScreen,
     Account: AccountScreen
   })
+},{
+  initialRouteName: 'TrackList'
 });
 
 const App = createAppContainer(switchNavigator);
